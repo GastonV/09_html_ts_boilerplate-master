@@ -1,0 +1,40 @@
+@import "./assets/styles/reset.scss";
+@import "./assets/styles/globals.scss";
+@import "./assets/styles/flexboxgrid.scss";
+@import "./assets/styles/helper.scss";
+/*import inter un poppins fonts*/
+
+body {
+  max-width: 1440px;
+  margin: auto;
+  font-family: 'Inter', 'Poppins';
+  padding: 80px 165px;
+  min-width: 320px;
+}
+
+.heading1 {
+  font-family: 'Inter';
+  font-size: 14px;
+  color: #18191F;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-feature-settings: "salt"on, "liga"off;
+}
+
+.button {
+  font-size: 14px;
+  font-family: 'Poppins';
+  padding: 8px 12px;
+  background-color: #1676F3;
+  border-radius: 4px;
+  color: #FFF;
+  border: 1px solid #1068BF;
+  box-sizing: border-box;
+  min-width: auto;
+}
+
+.gallery {
+  width: 100%;
+  min-width: 350px;
+}
